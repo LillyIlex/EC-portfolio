@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
 import Header from './components/pages/Header';
@@ -13,6 +13,7 @@ function App() {
 
     <Router>
       <div>
+        <Header />
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes>
@@ -23,6 +24,7 @@ function App() {
           {/* <Route path='ProjectGallery' element={<ProjectGallery />} /> */}
           {/* Define a route that will have descendant routes */}
           <Route path='contact/*' element={<Contact />} />
+          <Route path='ProjectGallery/*' element={<ProjectGallery />} />
         </Routes>
       </div>
     </Router>
