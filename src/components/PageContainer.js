@@ -1,14 +1,16 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from './components/NavTabs';
-import Home from './components/pages/Home';
-import Header from './components/pages/Header';
-import Project from './components/pages/Project';
-import Contact from './components/pages/Contact';
-import ProjectGallery from './components/pages/ProjectGallery';
-import projects from './components/pages/projects.json'
+import NavTabs from '../components/NavTabs';
+import Home from '../components/pages/Home';
+import Header from '../components/pages/Header';
+import Footer from '../components/pages/Footer';
+import Project from '../components/pages/Project';
+import Contact from '../components/pages/Contact';
+import ProjectGallery from '../components/pages/ProjectGallery';
+//import projects from './components/pages/projects.json'
 
-function App() {
+
+function PageContainer() {
   return (
 
     <Router>
@@ -26,8 +28,11 @@ function App() {
           <Route path='contact/*' element={<Contact />} />
           <Route path='ProjectGallery/*' element={<ProjectGallery />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
     
   );
 }
+
+export default PageContainer;
