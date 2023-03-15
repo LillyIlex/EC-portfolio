@@ -2,13 +2,14 @@
 // Must Contain a Navbar
 
 import React from "react";
+import CV from "../../assets/CV.pdf"
 
-function Header() {
+function About() {
     return (
         <div>
-        
+            <a href={CV}>View my CV</a>
         </div>
     )
 }
 
-export default Header;
+export default About;
