@@ -4,6 +4,8 @@
 import React from "react";
 import CV from "../../assets/CV.pdf"
 
+//google drive url to PDF
+
 function About() {
     return (
         <div>

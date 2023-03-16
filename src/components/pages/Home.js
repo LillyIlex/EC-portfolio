@@ -18,7 +18,7 @@ import About from "./About"
 function Home() {
     return (
         <div>
-            
+
             <h1> Elizabeth Corris</h1>
             <h3> Junior Web Dev</h3>
             <Container>
@@ -26,38 +26,37 @@ function Home() {
                     <Col xs={12} md={4}>
                         <Card>
                             <Card.Body>
-                            <img style={{ width: '18rem' }} src={profilePic} alt="Lil Corris" />
+                                <img style={{ width: '18rem' }} src={profilePic} alt="Lil Corris" />
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col xs={12} md={4}>
-                    <Card>
+                        <Card>
                             <Card.Body>
-                        <p> I am a recent Front-End Web Development course graduate, and am excited about the opportunities a career in code will bring.
+                                <p> I am a recent Front-End Web Development course graduate, and am excited about the opportunities a career in code will bring.
 
-                            Here in my profile you will find projects I have created, and my CV. Reach out using the contact page.
-<br></br>
-<br></br>
-                          <h6>My skills include</h6> 
-                        </p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Node.js</li>
-                            <li>React</li>
-                            <li>jQuery</li>
-                            <li>AJAX</li>
-                            <li>Git/GitHub</li>
+                                    Here in my profile you will find projects I have created, and my CV. Reach out using the contact page.
 
-                        </ul>
-                        <a> <Link to={<About />} > read more... </Link> </a>
-                        </Card.Body>
+                                </p>
+                                    <h6>My skills include</h6>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Node.js</li>
+                                    <li>React</li>
+                                    <li>jQuery</li>
+                                    <li>AJAX</li>
+                                    <li>Git/GitHub</li>
+
+                                </ul>
+                                 <Link to='/about' > read more... </Link> 
+                            </Card.Body>
                         </Card>
-                        </Col>
+                    </Col>
                     <Col xs={12} md={4}></Col>
                 </Row>
-            </Container>           
+            </Container>
 
         </div >
     )

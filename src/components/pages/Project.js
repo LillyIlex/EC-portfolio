@@ -17,25 +17,25 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 
-function Project() {
+function Project(props) {
   // props/this.
 
   return (
-    <div> 
-      <h2> My Personal Projects</h2>
+ 
+
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>{}</Card.Title>
-        <Card.Text>
-         {}
-        </Card.Text>
-       
-       <Card.Link > Website Link</Card.Link>
-        <Card.Link> GitHub Link</Card.Link>
-      </Card.Body>
-    </Card>
-    </div>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>{props.name}</Card.Title>
+          <Card.Text>
+            {props.bio}
+          </Card.Text>
+
+          <Card.Link href={props.website}> Website Link</Card.Link>
+          <Card.Link> GitHub Link</Card.Link>
+        </Card.Body>
+      </Card>
+   
   );
 }
 

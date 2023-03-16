@@ -2,21 +2,25 @@
 // Be sure to store your project data in a JSON file and import it into your project
 
 import React from "react"
-import project from "../../data/projects.json"
+import projectData from "../../data/projects.json"
 import Project from "./Project"
 
-function ProjectGallery(props) {
-  
+function ProjectGallery() {
+  console.log(projectData)
   return (
-  //  {ths.state.props.map(project => (
-      <Project
-          id={project.id}
-          key={project.id}
-          name={project.name}
-          image={project.image}
-          github= {project.githublink} 
-          website={project.websitelink}
-      />
-  )};
+    <>
+    <h2> My Personal Projects</h2>
+      {projectData.map(item => (
+        <Project
+        id={item.id}
+        key={item.id}
+        name={item.name}
+        image={item.image}
+        github= {item.githublink} 
+        website={item.deployed}
+        />))}
+    </>
+  )
+}
 
 export default ProjectGallery;
