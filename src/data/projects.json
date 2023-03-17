@@ -3,7 +3,7 @@
   {
     "id": 1,
     "name": "Allergy Forecast App",
-    "bio": "",
+    "bio": "A React app that uses third-party API's to check current pollen levels, and the air quality for your chosen location",
     "image": "https://www.github.com",
     "website": "https://www.github.com",
     "github": "https://www.github.com"
@@ -11,23 +11,23 @@
   {
     "id": 2,
     "name": "Ether Wallet Balance",
-    "bio": "",
+    "bio": "Webpage to check your Ethereum wallet balance, and a live Gas tracker",
     "image": "https://www.github.com",
     "website": "https://www.github.com",
     "github": "https://www.github.com"
   },
   {
     "id": 3,
-    "name": "Project3",
-    "bio": "",
+    "name": "CFG - Team Indigo",
+    "bio": "Team profile webpage for a group porject led by Code First Girls",
     "image": "https://www.github.com",
-    "website": "https://www.github.com",
-    "github": "https://www.github.com"
+    "website": "https://lillyilex.github.io/team-indigo/",
+    "github": "https://github.com/LillyIlex/team-indigo"
   },
   {
     "id": 4,
-    "name": "Project4",
-    "bio": "",
+    "name": "Daily Planner",
+    "bio": "Using local storage to input and store events which will displayed past, present, future time slots.",
     "image": "https://www.github.com",
     "website": "https://www.github.com",
     "github": "https://www.github.com"
