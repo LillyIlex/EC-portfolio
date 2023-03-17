@@ -5,7 +5,7 @@
     "name": "Allergy Forecast App",
     "bio": "",
     "image": "https://www.github.com",
-    "deployed": "https://www.github.com",
+    "website": "https://www.github.com",
     "github": "https://www.github.com"
   },
   {
@@ -13,7 +13,7 @@
     "name": "Ether Wallet Balance",
     "bio": "",
     "image": "https://www.github.com",
-    "deployed": "https://www.github.com",
+    "website": "https://www.github.com",
     "github": "https://www.github.com"
   },
   {
@@ -21,7 +21,7 @@
     "name": "Project3",
     "bio": "",
     "image": "https://www.github.com",
-    "deployed": "https://www.github.com",
+    "website": "https://www.github.com",
     "github": "https://www.github.com"
   },
   {
@@ -29,7 +29,7 @@
     "name": "Project4",
     "bio": "",
     "image": "https://www.github.com",
-    "deployed": "https://www.github.com",
+    "website": "https://www.github.com",
     "github": "https://www.github.com"
   },
   {
@@ -37,14 +37,15 @@
     "name": "Project5",
     "bio": "",
     "image": "https://www.github.com",
-    "deployed": "https://www.github.com",
+    "website": "https://www.github.com",
     "github": "https://www.github.com"
   },
   {
     "id": 6,
     "name": "Project6",
+    "bio": "",
     "image": "https://www.github.com",
-    "deployed": "https://www.github.com",
+    "website": "https://www.github.com",
     "github": "https://www.github.com"
   }
 ]

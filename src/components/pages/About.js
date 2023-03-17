@@ -2,7 +2,7 @@
 // Must Contain a Navbar
 
 import React from "react";
-import CV from "../../assets/CV.pdf"
+//CV  <Link href="https://docs.google.com/document/d/1d0h7jrBdazqEBfEqAUEUxoe2BpWznDOn06Uv6PVJlTE/edit?usp=sharing">
 
 //google drive url to PDF
 

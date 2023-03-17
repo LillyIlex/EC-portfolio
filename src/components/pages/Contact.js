@@ -17,6 +17,12 @@ function Contact() {
   console.log(text);
   //onclick, preventdefault
   return (
+
+    <div>
+      Let's connect!
+      <Button variant="outline-light" href="https://www.linkedin.com/in/lil-corris/">LinkedIn</Button>
+      <Button variant="outline-light" href="https://github.com/LillyIlex">Github</Button>
+Reach Out!
     <Form onSubmit={submitForm} style={{ width: '50rem' }}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -35,10 +41,11 @@ function Contact() {
         <Form.Control type="text" placeholder="Enter message" name='text' value={text} onChange={handleChange} />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button variant="outline-light" type="submit">
         Send
       </Button>
     </Form>
+    </div>
   );
 }
 

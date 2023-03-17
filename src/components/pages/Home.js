@@ -50,6 +50,8 @@ function Home() {
                                     <li>Git/GitHub</li>
 
                                 </ul>
+                                <Button variant="outline-light" href="https://www.linkedin.com/in/lil-corris/">LinkedIn</Button>
+
                                  <Link to='/about' > read more... </Link> 
                             </Card.Body>
                         </Card>

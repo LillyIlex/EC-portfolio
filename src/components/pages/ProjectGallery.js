@@ -3,7 +3,7 @@
 
 import React from "react"
 import projectData from "../../data/projects.json"
-import Project from "./Project"
+import Project from "../../components/Project"
 
 function ProjectGallery() {
   console.log(projectData)
@@ -15,9 +15,10 @@ function ProjectGallery() {
         id={item.id}
         key={item.id}
         name={item.name}
+        bio={item.bio}
         image={item.image}
-        github= {item.githublink} 
-        website={item.deployed}
+        github= {item.github} 
+        website={item.website}
         />))}
     </>
   )
