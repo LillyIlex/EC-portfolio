@@ -13,7 +13,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import profilePic from "../../assets/images/profile-pic.png"
-import About from "./About"
+import Button from 'react-bootstrap/Button';
 
 function Home() {
     return (
@@ -50,9 +50,8 @@ function Home() {
                                     <li>Git/GitHub</li>
 
                                 </ul>
-                                <Button variant="outline-light" href="https://www.linkedin.com/in/lil-corris/">LinkedIn</Button>
+                                <Button variant="outline-dark"><Link to='/about' > read more...  </Link></Button>
 
-                                 <Link to='/about' > read more... </Link> 
                             </Card.Body>
                         </Card>
                     </Col>
@@ -67,7 +66,7 @@ function Home() {
 export default Home;
 
 /* function readMore() {
-  alert('Make myFunc the pFunc... omg that was horrible i am so sorry');
+  alert('Make my');
 }
  
 <img onClick={readMore} /> 

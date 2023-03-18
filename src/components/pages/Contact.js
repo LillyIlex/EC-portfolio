@@ -20,8 +20,8 @@ function Contact() {
 
     <div>
       Let's connect!
-      <Button variant="outline-light" href="https://www.linkedin.com/in/lil-corris/">LinkedIn</Button>
-      <Button variant="outline-light" href="https://github.com/LillyIlex">Github</Button>
+      <Button variant="outline-dark" href="https://www.linkedin.com/in/lil-corris/">LinkedIn</Button>
+      <Button variant="outline-dark" href="https://github.com/LillyIlex">Github</Button>
 Reach Out!
     <Form onSubmit={submitForm} style={{ width: '50rem' }}>
       <Form.Group className="mb-3" controlId="formBasicEmail">

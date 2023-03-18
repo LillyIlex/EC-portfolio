@@ -18,10 +18,8 @@ function PageContainer() {
       <div>
        <NavTabs />
         <Routes>
-          {/* Define routes using the Route component to render different page components at different paths */}
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          {/* Define a route that will have descendant routes */}
           <Route path='/contact' element={<Contact />} />
           <Route path='/projects' element={<ProjectGallery />} />
         </Routes>

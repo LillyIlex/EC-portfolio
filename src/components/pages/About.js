@@ -2,14 +2,14 @@
 // Must Contain a Navbar
 
 import React from "react";
-//CV  <Link href="https://docs.google.com/document/d/1d0h7jrBdazqEBfEqAUEUxoe2BpWznDOn06Uv6PVJlTE/edit?usp=sharing">
+import { Link } from 'react-router-dom';
 
-//google drive url to PDF
 
 function About() {
     return (
         <div>
-            <a href={CV}>View my CV</a>
+            <h4>
+            <Link to="https://docs.google.com/document/d/1d0h7jrBdazqEBfEqAUEUxoe2BpWznDOn06Uv6PVJlTE/edit?usp=sharing">View my CV</Link> CV </h4>
         </div>
     )
 }
