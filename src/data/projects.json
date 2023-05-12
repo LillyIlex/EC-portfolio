@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Ether Wallet Balance",
     "bio": "Webpage to check your Ethereum wallet balance, and a live Gas tracker",
-    "image": "https://www.github.com",
+    "image": "../src/assets/images/ethereum.png",
     "website": "https://www.github.com",
     "github": "https://www.github.com"
   },
@@ -20,7 +20,7 @@
     "id": 3,
     "name": "CFG - Team Indigo",
     "bio": "Team profile webpage for a group porject led by Code First Girls",
-    "image": "https://www.github.com",
+    "image": "../src/assets/images/team-bio.png",
     "website": "https://lillyilex.github.io/team-indigo/",
     "github": "https://github.com/LillyIlex/team-indigo"
   },
@@ -28,7 +28,7 @@
     "id": 4,
     "name": "Daily Planner",
     "bio": "Using local storage to input and store events which will displayed past, present, future time slots.",
-    "image": "https://www.github.com",
+    "image": "../src/assets/images/daily-planner.png",
     "website": "https://www.github.com",
     "github": "https://www.github.com"
   },

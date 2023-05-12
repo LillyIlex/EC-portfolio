@@ -5,10 +5,12 @@ import React from "react"
 import projectData from "../../data/projects.json"
 import Project from "../../components/Project"
 
+
 function ProjectGallery() {
   console.log(projectData)
   return (
-    <>
+    <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+ 
     <h2> My Personal Projects</h2>
       {projectData.map(item => (
         <Project
@@ -20,8 +22,8 @@ function ProjectGallery() {
         github= {item.github} 
         website={item.website}
         />))}
-    </>
-  )
+
+    </div>  )
 }
 
 export default ProjectGallery;

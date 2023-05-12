@@ -30,7 +30,7 @@ function Home() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={12} md={4}>
+                    <Col xs={12} md={8}>
                         <Card>
                             <Card.Body>
                                 <p> I am a recent Front-End Web Development course graduate, and am excited about the opportunities a career in code will bring.
@@ -38,7 +38,7 @@ function Home() {
                                     Here in my profile you will find projects I have created, and my CV. Reach out using the contact page.
 
                                 </p>
-                                    <h6>My skills include</h6>
+                                    <h6 class="bg-blue-700" >My skills include</h6>
                                 <ul>
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -50,12 +50,11 @@ function Home() {
                                     <li>Git/GitHub</li>
 
                                 </ul>
-                                <Button variant="outline-dark"><Link to='/about' > read more...  </Link></Button>
+                                <Button variant="outline-dark"> <Link to="/about">Read more</Link> </Button>
 
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={12} md={4}></Col>
                 </Row>
             </Container>
 
