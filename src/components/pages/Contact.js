@@ -18,7 +18,8 @@ function Contact() {
   //onclick, preventdefault
   return (
 
-    <div>
+    <div >
+     <input type="checkbox" class="rounded text-pink-500" />
       Let's connect!
       <Button variant="outline-dark" href="https://www.linkedin.com/in/lil-corris/">LinkedIn</Button>
       <Button variant="outline-dark" href="https://github.com/LillyIlex">Github</Button>
