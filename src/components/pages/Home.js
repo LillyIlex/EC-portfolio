@@ -18,29 +18,6 @@ import Button from 'react-bootstrap/Button';
 function Home() {
     return (
         <div>
-
-            <h1 className="text-3xl font-bold underline text-center"> Elizabeth Corris</h1>
-            <h3 className="text-2xl font-bold text-red-500 underline"> Junior Web Dev</h3>
-
-            <div className="fex justify-center w-4 h-7">
-                <p className="mt-12 border-red-600 w-3 h-7"> I am a recent Front-End Web Development course graduate, and am excited about the opportunities a career in code will bring.
-
-                    Here in my profile you will find projects I have created, and my CV. Reach out using the contact page.
-
-                </p>
-                <h6 class="bg-blue-700" >My skills include</h6>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Node.js</li>
-                    <li>React</li>
-                    <li>jQuery</li>
-                    <li>AJAX</li>
-                    <li>Git/GitHub</li>
-
-                </ul>
-            </div>
             <Container>
                 <Row>
                     <Col xs={12} md={4}>
